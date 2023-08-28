@@ -72,13 +72,12 @@ a {
 .first-content p {
   font-size: 18px;
   font-weight: 500;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .EventSign {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
-place-items: center;
 }
 .content-no {
   background: -webkit-linear-gradient(95deg, #6d3daa 0%, #43a4e2 100%);

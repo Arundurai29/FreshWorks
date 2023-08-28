@@ -29,4 +29,7 @@
   .dnon {
     display: none;
   }
+  .EventSignificance {
+    margin-top: 40px;
+  }
 }

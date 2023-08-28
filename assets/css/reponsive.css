@@ -19,8 +19,7 @@
     line-height: 40px;
   }
   .content-no {
-    width: 68px;
-    height: 45px;
+    padding: 10px 15px;
   }
   .no {
     width: 30px;
@@ -31,5 +30,11 @@
   }
   .EventSignificance {
     margin-top: 40px;
+  }
+  .Heading {
+    font-size: 26px;
+  }
+  .icons {
+    gap: 10px;
   }
 }

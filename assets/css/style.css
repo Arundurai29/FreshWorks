@@ -111,6 +111,7 @@ a:hover {
 }
 .EventSign-content {
   display: flex;
+  align-items: center;
 }
 .EventSign-content {
   margin: 20px 0;
@@ -143,6 +144,7 @@ a:hover {
 .owl-carousel .owl-item img {
   width: 80% !important;
   transition: 0.2s ease-in-out;
+  margin: auto;
 }
 .owl-carousel .owl-item img:hover {
   transform: scale(1.1);

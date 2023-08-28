@@ -1,0 +1,196 @@
+/* font css */
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Heebo:wght@300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --main-color: #ebeff2;
+  --text-color: #1d2027;
+  --seecondery-color: #f59c2c;
+  --section-gap: 60px 0px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color) !important;
+}
+.header {
+  background: var(--main-color);
+}
+.navbars {
+  display: flex;
+  justify-content: end;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.nav-item {
+  display: grid;
+  place-items: center;
+  padding: 15px 20px;
+}
+.nav-links {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.cio-home {
+  height: 100vh;
+  background: url(/assets/img/ceo-bg.png) no-repeat center center;
+  background-size: cover;
+  background-position-y: 0px;
+}
+.main-content {
+  background: var(--main-color);
+  padding: var(--section-gap);
+}
+.first-content h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.first-content h2 > span {
+  color: var(--seecondery-color);
+}
+.first-content p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.EventSign {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.content-no {
+  background: -webkit-linear-gradient(95deg, #6d3daa 0%, #43a4e2 100%);
+  width: 60px;
+  height: 60px;
+  border-radius: 1000px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.content-no::before {
+  content: "";
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-left: 18px solid #5182d0;
+  right: -15px;
+  border-bottom: 10px solid transparent;
+}
+.no {
+  background: var(--main-color);
+  display: grid;
+  border-radius: 1000px;
+  place-items: center;
+  width: 40px;
+  margin: 0;
+  height: 40px;
+  font-size: 26px;
+}
+.EventSign-content {
+  display: flex;
+}
+.EventSign-content {
+  margin: 20px 0;
+}
+.content {
+  margin: 0 0 0 40px;
+  display: grid;
+  place-items: center;
+}
+.content p {
+  font-size: 16px;
+  margin: 0;
+}
+.Heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.EventSignificance {
+  margin-top: 50px;
+}
+.item {
+  padding: 30px;
+}
+.item h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0 20px;
+}
+.owl-carousel .owl-item img {
+  width: 80% !important;
+}
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  padding: 0px 30px;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+.owl-next {
+  float: right;
+}
+.owl-next,
+.owl-prev {
+  border: 3px solid #b7b7b7 !important;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+}
+.owl-next i {
+  font-size: 22px;
+  color: #b7b7b7;
+}
+.owl-prev i {
+  font-size: 22px;
+  color: #b7b7b7;
+}
+/* footer css */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.icons {
+  display: flex;
+  margin: 0;
+  gap: 20px;
+}
+.icons li {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--text-color);
+  border-radius: 100px;
+  display: grid;
+  place-items: center;
+}
+.icon {
+  font-size: 20px;
+}
+.footer-logo img {
+  width: 120px;
+  height: auto;
+}

@@ -50,4 +50,16 @@
   .icon {
     font-size: 16px;
   }
+  .container{
+    width: 96%;
+  }
+  .nav-border::before {
+    content: '';
+    position: absolute;
+    right: -13px;
+    top: 1px;
+    width: 3px;
+    height: 16px;
+    background: #000;
+}
 }

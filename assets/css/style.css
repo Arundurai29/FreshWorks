@@ -53,17 +53,18 @@ a:hover {
   font-size: 16px;
   font-weight: 600;
   color: var(--text-color);
+  position: relative;
 }
 .cio-home {
   height: 100vh;
-  background: url(/assets/img/mainimg.jpeg) no-repeat center center;
+  background: url(/assets/img/ceo-bg.png) no-repeat center center;
   background-size: cover;
   background-position-y: 0px;
 }
 
 .second-home {
   height: 100vh;
-  background: url(/assets/img/ceo.png) no-repeat center center;
+  background: url(/assets/img/cx-bg.png) no-repeat center center;
   background-size: cover;
   background-position-y: 0px;
 }
@@ -188,10 +189,14 @@ a:hover {
   color: #b7b7b7;
 }
 /* footer css */
+footer{
+  background: #ebeff2;
+}
 .footer {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+
 }
 .icons {
   display: flex;
@@ -212,4 +217,13 @@ a:hover {
 .footer-logo img {
   width: 120px;
   height: auto;
+}
+.nav-border::before{
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 2px;
+  width: 3px;
+  height: 20px;
+  background: #000;
 }

@@ -60,6 +60,13 @@ a:hover {
   background-size: cover;
   background-position-y: 0px;
 }
+
+.second-home {
+  height: 100vh;
+  background: url(/assets/img/mainimg.jpeg) no-repeat center center;
+  background-size: cover;
+  background-position-y: 0px;
+}
 .main-content {
   background: var(--main-color);
   padding: var(--section-gap);
@@ -132,6 +139,9 @@ a:hover {
 }
 .EventSignificance {
   margin-top: 50px;
+}
+.EventSignificance-2 p{
+  font-size: 18px;
 }
 .item {
   padding: 30px;

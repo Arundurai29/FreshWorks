@@ -56,14 +56,14 @@ a:hover {
 }
 .cio-home {
   height: 100vh;
-  background: url(/assets/img/ceo-bg.png) no-repeat center center;
+  background: url(/assets/img/mainimg.jpeg) no-repeat center center;
   background-size: cover;
   background-position-y: 0px;
 }
 
 .second-home {
   height: 100vh;
-  background: url(/assets/img/mainimg.jpeg) no-repeat center center;
+  background: url(/assets/img/ceo.jpg) no-repeat center center;
   background-size: cover;
   background-position-y: 0px;
 }

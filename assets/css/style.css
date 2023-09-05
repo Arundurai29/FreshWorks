@@ -52,7 +52,7 @@ a:hover {
 .nav-links {
   font-size: 16px;
   font-weight: 600;
-  color: var(--text-color) !important;
+  color: var(--text-color);
   position: relative;
 }
 .cio-home {
@@ -144,6 +144,14 @@ a:hover {
 .EventSignificance-2 p{
   font-size: 18px;
 }
+.event-img img{
+  width: 100%;
+  max-height: 780px;
+  object-fit: fill;
+  padding: 0 clamp(3rem,0vw,3rem);
+}
+
+
 .item {
   padding: 30px;
 }
@@ -221,7 +229,7 @@ footer{
 .nav-border::before{
   content: '';
   position: absolute;
-  right: -21px;
+  right: -20px;
   top: 2px;
   width: 3px;
   height: 20px;

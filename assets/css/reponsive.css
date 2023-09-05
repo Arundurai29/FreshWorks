@@ -62,4 +62,9 @@
     height: 16px;
     background: #000;
 }
+.event-img img {
+  max-height: 705px;
+  padding: 0 clamp(0rem,0vw,3rem);
+  margin-top: 20px;
+}
 }

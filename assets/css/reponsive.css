@@ -4,59 +4,75 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
   }
+
   .cio-home {
-  
+
     height: 22dvh;
 
   }
+
   .second-home {
-  
+
     height: 22dvh;
 
   }
+
   .nav-links {
     font-size: 12px;
   }
+
   .nav-item {
     padding: 15px 10px;
   }
+
   .first-content h2 {
     font-size: 26px;
     font-weight: 700;
     line-height: 40px;
   }
+
   .content-no {
     padding: 10px 15px;
   }
+
   .no {
     width: 30px;
     height: 30px;
   }
+
   .dnon {
     display: none;
   }
+
   .EventSignificance {
     margin-top: 40px;
   }
-  .EventSignificance-2 p{
+
+  .EventSignificance-2 p {
     font-size: 16px;
   }
+
   .Heading {
     font-size: 26px;
   }
+
   .icons {
     gap: 10px;
   }
+
   .icons li {
     width: 30px;
     height: 30px;
   }
+
   .icon {
     font-size: 16px;
   }
-  .container{
+
+  .container {
     width: 96%;
   }
+
   .nav-border::before {
     content: '';
     position: absolute;
@@ -65,18 +81,70 @@
     width: 3px;
     height: 16px;
     background: #000;
+  }
+
+  .event-img img {
+    width: 90%;
+    max-height: 300px;
+    padding: 0 clamp(4rem, 0vw, 3rem);
+    margin-top: 20px;
+    margin: 20px 20px;
+  }
+  .video-section{
+    height: 400px;
+  }
+  .video-fresh{
+    width: 100%;
+  }
+  .speaker-list p {
+    font-size: 12px;
+  }
+  .speak-carousel .owl-nav .owl-prev{
+    margin-left:-60px;
+  }
+  .speak-carousel .owl-nav .owl-next{
+    margin-right:-55px;
+  }
+
+  .item {
+    padding: 10px;
 }
-.event-img img {
-  max-height: 400px;
-  padding: 0 clamp(4rem,0vw,3rem);
-  margin-top: 20px;
+.owl-carousel1 .owl-dots.disabled{
+  display: none !important;
 }
-}
-@media(max-width:1430px) and (min-width:600px){
+
+
+
+  }
+ 
+@media(max-width:1430px) and (min-width:600px) {
   .second-home {
-    height: 69dvh;
+    height: 80dvh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+
   .cio-home {
-    height: 69dvh;
+    height: 80dvh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+
+  .event-img img {
+    width: 75%;
+    max-height: 400px;
+    padding: 0 clamp(4rem, 0vw, 3rem);
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+
 }

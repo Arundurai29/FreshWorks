@@ -357,3 +357,12 @@ footer {
 .owl-carousel1 .owl-dots.disabled{
   display: none !important;
 }
+.nav-border:last-child::before {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 2px;
+    width: 3px;
+    height: 20px;
+    background: transprant !important;
+}

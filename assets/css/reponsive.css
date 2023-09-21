@@ -117,7 +117,7 @@
 
   }
  
-@media(max-width:1430px) and (min-width:600px) {
+@media(max-width:1430px) and (min-width:1110px) {
   .second-home {
     height: 80dvh;
     background-position: center;
@@ -138,13 +138,42 @@
     padding: 0 clamp(4rem, 0vw, 3rem);
     margin-top: 20px;
   }
+}
+@media(max-width:1109px) and (min-width:600px) {
+  .second-home {
+    height: 65dvh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
+  .cio-home {
+    height: 65dvh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
+  .event-img img {
+    width: 75%;
+    max-height: 400px;
+    padding: 0 clamp(4rem, 0vw, 3rem);
+    margin-top: 20px;
+  }
+}
+@media(max-width:600px) and (min-width:420px) {
+  .second-home {
+    height: 32dvh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-
-
-
-
-
+  .cio-home {
+    height: 32dvh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
 }

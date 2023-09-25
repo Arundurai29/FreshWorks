@@ -64,16 +64,10 @@ a:hover {
   position: relative;
 }
 
-.cio-home {
-  height: 100dvh;
-  background: url(/assets/img/ceo-bg.png) no-repeat center center;
-  background-size: cover;
-  background-position-y: 0px;
 
-}
 
 .second-home {
-  height: 100dvh;
+  /* height: 100dvh; */
   background: url(/assets/img/cx-bg.png) no-repeat center center;
   background-size: cover;
   background-position-y: 0px;
@@ -183,6 +177,7 @@ a:hover {
 
 .item {
   padding: 30px;
+  text-align: -webkit-center;
 }
 
 .item h3 {
@@ -203,8 +198,10 @@ a:hover {
 .owl-carousel .owl-item img {
   display: block;
   width: 100%;
-  max-height: 379px;
+  /* max-height: 379px; */
   object-fit: cover;
+  height: 100%;
+
 } 
 .owl-nav {
   position: absolute;
@@ -312,9 +309,10 @@ footer {
 
 .img-cover {
   border: 8px solid rgb(255, 194, 52);
-  /* height: 300px; */
-  /* width: 300px; */
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
+  text-align: -webkit-center !important;
 }
 
 .speaker-list h3 {

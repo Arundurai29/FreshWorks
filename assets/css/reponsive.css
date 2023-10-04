@@ -4,7 +4,19 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
   }
-  
+  .about {
+    margin: 0 15px;
+}
+.about-home h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.about-home {
+  margin: 30px 0;
+}
+.about-content {
+  margin: 30px 0;
+}
 .carousel-control-next, .carousel-control-prev {
   top: 35% !important;
 }
@@ -22,22 +34,11 @@
   font-weight: 500;
   margin: 10px 0 20px 0;
 }
-  /* .jayant img{
-    max-height: 260px !important;
-  } */
-
-  /* .cio-home {
-
-    height: 22dvh;
-
-  } */
-
-  /* .second-home {
-
-    height: 22dvh;
-
-  } */
-
+.event-img img {
+  padding: 10px ;
+  margin-top: 20px;
+  margin-left: 0;
+}
   .carousel-control-next, .carousel-control-prev{
     width: 40px !important;
     height: 40px !important;
@@ -109,13 +110,7 @@
     background: #000;
   }
 
-  .event-img img {
-    width: 90%;
-    max-height: 300px;
-    padding: 0 clamp(4rem, 0vw, 3rem);
-    margin-top: 20px;
-    margin: 20px 20px;
-  }
+  
   .video-section{
     height: 400px;
   }
@@ -161,12 +156,6 @@
     background-repeat: no-repeat;
   }
 
-  .event-img img {
-    width: 75%;
-    max-height: 400px;
-    padding: 0 clamp(4rem, 0vw, 3rem);
-    margin-top: 20px;
-  }
 }
 @media(max-width:1109px) and (min-width:600px) {
   .second-home {
@@ -185,12 +174,7 @@
     background-repeat: no-repeat;
   }
 
-  .event-img img {
-    width: 75%;
-    max-height: 400px;
-    padding: 0 clamp(4rem, 0vw, 3rem);
-    margin-top: 20px;
-  }
+
 }
 @media(max-width:600px) and (min-width:420px) {
   .second-home {

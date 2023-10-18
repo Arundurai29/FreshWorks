@@ -159,7 +159,7 @@ a:hover {
 }
 
 .EventSignificance {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .EventSignificance-2 p {
@@ -168,10 +168,11 @@ a:hover {
 
 .event-img img {
   width: 100%;
-  object-fit: fill;
+  margin-top: 20px;
+  /* object-fit: fill;
   padding: 0 clamp(3rem, 0vw, 3rem);
   margin-top: 20px;
-  margin-left: 60px;
+  margin-left: 60px; */
 }
 
 
@@ -387,7 +388,7 @@ top: 50% !important;
   margin: 40px 0 0;
 }
 .event-content {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .video-title{
   font-size: 28px;
@@ -435,4 +436,12 @@ top: 50% !important;
 .cio-ai{
   display: grid;
   place-items: center;
+}
+.abo{
+  width: 60%;
+  float: right;
+  padding-left: 20px;
+}
+.aboutt{
+  margin-top: 20px;
 }

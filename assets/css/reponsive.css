@@ -7,6 +7,16 @@
   .about {
     margin: 0 15px;
 }
+.ca1{
+  max-height: 220px !important;
+}
+
+.abo {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
 .about-home h1 {
   font-size: 1.5rem;
   line-height: 2rem;

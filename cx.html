@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freshworks | SECOND EXCHANGE</title>
+    <!-- Favicon -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Freshworks |THIRD EXCHANGE</title>
-  <!-- Favicon -->
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reponsive.css" />
+    <!-- bootstrap style sheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- jquery script file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!-- custom style sheet -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/reponsive.css" />
-  <!-- bootstrap style sheet -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <!-- jquery script file -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-  <!-- font-awesome cdn -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
-  <!-- =========================
+  <body>
+    <!-- =========================
     header section sraet
     ========================= -->
     <section class="header">
@@ -31,14 +47,12 @@
         <div class="navbars">
           <ul class="nav-items">
             <li class="nav-item">
-              <a href="index.html/#about-info" class="nav-links nav-border">
+              <a href="#about-info" class="nav-links nav-border">
                 ABOUT FRESHWORKS</a
               >
             </li>
             <li class="nav-item">
-              <a href="index.html" class="nav-links nav-border">
-                THE CIO EXCHANGE</a
-              >
+              <a href="index.html" class="nav-links nav-border"> THE CIO EXCHANGE</a>
             </li>
             <li class="nav-item">
               <a href="cx.html" class="nav-links">THE NEW CX</a>
@@ -47,187 +61,530 @@
         </div>
       </nav>
     </section>
-  <!-- =========================
+    <!-- =========================
     header section end
     ========================= -->
 
-  <!-- =========================
+    <!-- =========================
     welcome secton sraet
     ========================= -->
-  <section class="second-home">
-    <img src="assets/img/cx-bg.png" width="100%" alt="">
-  </section>
+    <section class="cio-home">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/cx/Fresh works NEW CX Sting.gif"
+              style="max-height: 630px; object-fit: cover"
+              class="d-block w-100 ca1"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/cx/Artboard 1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/cx/Artboard 1 copy.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/cx/Artboard 1 copy 3.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/cx/Artboard 1 copy 2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          style="color: black !important"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-  <!-- =========================
+    <!-- =========================
     header section end
     ========================= -->
-  <!-- =========================
+    <!-- =========================
     main section start
     ========================= -->
 
-  <section id="main-cont" class="main-content">
-    <div class="container">
-      <div class="first-content">
-        <!-- <h2>
-          The Future of Customer Service: <br class="dnon" />
-          Transforming CX for Success <span>IT Management</span>
+    <section id="main-cont" class="main-content">
+      <div class="container">
+        <div class="first-content">
+          <!-- <h2>
+          About us:
         </h2> -->
-        <p>
-          Explore ITSM's evolving role in maximizing business value. Discover
-          strategies for efﬁciency, cost
-          <br class="dnon" />
-          optimization, and AI integration. Engage with experts for insights
-          into the future of IT management.
-        </p>
-      </div>
-      <!-- EventSignificance -->
-      <div class="EventSignificance EventSignificance-2">
-        <h2 class="Heading text-start">
-          The Future of Customer Service: <br class="dnon" />
-          Transforming CX for Success <span>IT Management</span>
-        </h2>
-
-        <div class="row">
-          <div class="col-md-7">
-            <div class="event-content" style="text-align: justify">
-              <p>
-                In today's digital age, the importance of customer experience
-                (CX) is paramount, particularly in the post-pandemic landscape
-                where customer expectations have evolved
-                significantly.Businesses must swiftly address key CX trends
-                such as personalization, omnichannelsupport, AIutilization,
-                data-driven insights, and building emotional connections with
-                customers. Scalingcustomersupport through self-service and
-                automation,including AI chatbots, offers benefits like 24/7
-                availability and cost control. However, challenges arise when
-                striking the right balance between human interaction and
-                automation, ensuring dataprivacy, and maintaining consistent
-                service across channels.
-              </p>
-              <p>
-                Customer support teams play a vital role in business growth
-                and brand perception. To transform CX from a cost center to a
-                revenue driver, CX leaders should focus on speciﬁc areas.
-                Strategies should leverage customer service interactions to
-                enhance customer lifetime value and business growth while
-                striking a balance between short-term ROI and long-term
-                customer value. Emerging technologies can personalize
-                interactions at scale and improve cross-selling and upselling.
-                Real-time engagement is key to building loyalty, enhancing
-                satisfaction, and promoting brand advocacy.
-              </p>
-              <p>
-                While challenges may emerge in adopting generative AI, the
-                beneﬁts are substantial. AI-powered backend systems boost
-                agent productivity and enhance customer support quality,
-                resulting in cost efﬁciency. Success stories of AI
-                implementation showcase signiﬁcant improvements in agent
-                performance and customer satisfaction. Monitoring critical
-                customer service metrics and evaluating the overall customer
-                experience across various touchpoints is essential. Building a
-                uniﬁed customer view across channels enables personalized
-                interactions. Fostering a customer-centric and
-                innovation-driven team culture drives business growth, while
-                aligning cross-functional teams ensures consistent customer
-                experiences.
-              </p>
-              <p>
-                Freshworks offers technology and tools to automate processes,
-                optimize customer journeys, and transform CX into a
-                competitive advantage. AI-driven features and tools improve
-                agent efﬁciency and backend processes, ultimately enhancing
-                customer service outcomes.
-              </p>
-            </div>
+          <p>
+            Explore ITSM's evolving role in maximizing business value. Discover
+            strategies for efﬁciency, cost optimization, and AI integration.
+            Engage with experts for insights into the future of IT management.
+          </p>
+        </div>
+        <!-- EventSignificance -->
+        <div class="EventSignificance EventSignificance-2">
+          <div class="first-content fs">
+            <h2>
+              The Future of Customer Service: Transforming CX for Success
+              <span>IT Management</span>
+            </h2>
           </div>
-          <div class="col-md-5 " style="    display: flex;
-            align-items: center;">
-            <div class="event-img">
-              <img src="assets/img/cx-img.jpg" alt="cx image" />
-            </div>
+          <div class="aboutt">
+            <img
+              class="abo"
+              src="assets/img/cx/Artboard 1 copy.png"
+              alt="cx image"
+            />
+
+            <p class="warper">
+              In today's digital age, the importance of customer experience (CX)
+              is paramount, particularly in the post-pandemic landscape where
+              customer expectations have evolved significantly.Businesses must
+              swiftly address key CX trends such as personalization,
+              omnichannelsupport, AIutilization, data-driven insights, and
+              building emotional connections with customers.
+              Scalingcustomersupport through self-service and
+              automation,including AI chatbots, offers benefits like 24/7
+              availability and cost control. However, challenges arise when
+              striking the right balance between human interaction and
+              automation, ensuring dataprivacy, and maintaining consistent
+              service across channels.
+              <br /><br />
+              Customer support teams play a vital role in business growth and
+              brand perception. To transform CX from a cost center to a revenue
+              driver, CX leaders should focus on speciﬁc areas. Strategies
+              should leverage customer service interactions to enhance customer
+              lifetime value and business growth while striking a balance
+              between short-term ROI and long-term customer value. Emerging
+              technologies can personalize interactions at scale and improve
+              cross-selling and upselling. Real-time engagement is key to
+              building loyalty, enhancing satisfaction, and promoting brand
+              advocacy.
+              <br /><br />
+              While challenges may emerge in adopting generative AI, the beneﬁts
+              are substantial. AI-powered backend systems boost agent
+              productivity and enhance customer support quality, resulting in
+              cost efﬁciency. Success stories of AI implementation showcase
+              signiﬁcant improvements in agent performance and customer
+              satisfaction. Monitoring critical customer service metrics and
+              evaluating the overall customer experience across various
+              touchpoints is essential. Building a uniﬁed customer view across
+              channels enables personalized interactions. Fostering a
+              customer-centric and innovation-driven team culture drives
+              business growth, while aligning cross-functional teams ensures
+              consistent customer experiences.
+              <br /><br />
+              Freshworks offers technology and tools to automate processes,
+              optimize customer journeys, and transform CX into a competitive
+              advantage. AI-driven features and tools improve agent efﬁciency
+              and backend processes, ultimately enhancing customer service
+              outcomes.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-    <!-- EventSignificance end -->
 
-    <!-- Resources start-->
-    <div id="assets" class="EventSignificance">
-      <h2 class="Heading">Learning Hub</h2>
-      <div class="owl-carousel">
-        <div class="item">
-          <img src="assets/img/slider3.png" alt="Image 1" />
-          <h3>
-            Freshservice <br />
-            Benchmark Report
-          </h3>
-        </div>
-        <div class="item">
-          <img src="assets/img/slider1.png" alt="Image 1" />
-          <h3>
-            Supercharging ITSM <br />
-            and ITOM eBook
-          </h3>
-        </div>
-        <div class="item">
-          <img src="assets/img/slider2.png" alt="Image 1" />
-          <h3>
-            Forrester <br />
-            Planning Guide
-          </h3>
+      <div class="speakers-section">
+        <h2>SPEAKERS</h2>
+        <div class="owl-carousel speak-carousel">
+          <div class="item speaker-list">
+            <div class="img-cover jayant">
+              <img
+                src="assets/img/cx/Mukesh.jpeg"
+                height="414px"
+                class="speaker-img"
+                alt="Image 1"
+              />
+            </div>
+
+            <h3 style="text-transform: uppercase">Mukesh Chaliha </h3>
+            <p style="text-transform: uppercase">Head- Operations</p>
+            <p style="text-transform: uppercase">India bulls Housing Finance</p>
+          </div>
+          <div class="item speaker-list">
+            <div class="img-cover jayant">
+              <img
+                src="assets/img/cx/Picture- Thiru, COO, Kinara Capital.jpg "
+                height="414px"
+                class="speaker-img"
+                alt="Image 1"
+              />
+            </div>
+
+            <h3 style="text-transform: uppercase">Thirunavukkarasu R</h3>
+            <p style="text-transform: uppercase">Chief Operating Officer</p>
+            <p style="text-transform: uppercase">Kinara Capital</p>
+          </div>
+          <div class="item speaker-list">
+            <div class="img-cover">
+              <img
+                src="assets/img/cx/Anand Narayanan (1).jpg"
+                class="speaker-img"
+                alt="Image 1"
+              />
+            </div>
+
+            <h3 style="text-transform: uppercase">Anand Narayanan</h3>
+            <p style="text-transform: uppercase">Chief Product Officer</p>
+            <p style="text-transform: uppercase">Simplilearn</p>
+          </div>
+          <div class="item speaker-list">
+            <div class="img-cover jayant">
+              <img
+                src="assets/img/cx/Ambika.jpeg"
+                height="414px"
+                class="speaker-img"
+                alt="Image 1"
+              />
+            </div>
+
+            <h3 style="text-transform: uppercase">Ambika Sultania</h3>
+            <p style="text-transform: uppercase">
+              Business Head, CX & CRM(India & SAARC)
+            </p>
+            <p style="text-transform: uppercase">Freshworks</p>
+          </div>
+          <div class="item speaker-list">
+            <div class="img-cover">
+              <img
+                src="assets/img/cx/GUATHAM SHRINIVASAN.jpg"
+                class="speaker-img"
+                alt="Image 1"
+              />
+            </div>
+
+            <h3 style="text-transform: uppercase">Gautham Srinivasan</h3>
+            <p style="text-transform: uppercase"></p>
+            <p style="text-transform: uppercase">Moderator</p>
+          </div>
+         
         </div>
       </div>
-    </div>
-    <!-- Resources end-->
-  </section>
+      <!----speakers section--end-->
+      <!----video section---->
+      <section class="video-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="video-con">
+                <h3 class="video-title">THE CIO EXCHANGE DISCUSSION</h3>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/xh-2-SPL1Oo"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----about section---->
+      <section class="cio-about">
+        <div class="container">
+          <div class="cio-ai" id="about-info">
+            <h2 class="Heading">About Freshworks</h2>
+            <p>
+              Freshworks Inc., (NASDAQ: FRSH) creates business software anyone
+              can use. Purpose-built for IT, customer support, and sales and
+              marketing teams, our AI-boosted products are designed to let
+              everyone work more efficiently and deliver more value for
+              immediate business impact. Headquartered in San Mateo, California,
+              Freshworks operates around the world to serve more than 65,000
+              customers, including American Express, Blue Nile, Bridgestone,
+              Databricks, Fila, Klarna, and OfficeMax.
+            </p>
+            <!-- <a href="about.html">Know More</a> -->
+          </div>
+        </div>
+      </section>
+      <!--Resources start-->
+      <div id="assets" class="EventSignificance">
+        <h2 class="Heading">Learning Hub</h2>
+        <div class="owl-carousel owl-carousel1">
+          <div class="item item1">
+            <a href="https://www.youtube.com/watch?v=CTrsKvoE5c4">
+              <img
+                src="assets/img/1-img.jpg"
+                alt="Image 1"
+                style="width: 314px !important; border: 7px solid white"
+            /></a>
+            <a href="https://www.youtube.com/watch?v=CTrsKvoE5c4">
+              <h3>Freshworks Solutions Overview</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a href="https://www.youtube.com/watch?v=kNQ7C-sPQKE"
+              ><img
+                src="assets/img/2-img.jpg"
+                alt="Image 1"
+                style="width: 314px !important; border: 7px solid white"
+            /></a>
+            <a href="https://www.youtube.com/watch?v=kNQ7C-sPQKE">
+              <h3>Freshworks for IT</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a
+              href="https://www.freshworks.com/freshworks-cio-on-generative-ais-impact-on-service-management-blog/?tactic_id=6012042&utm_source=Forbes"
+              ><img
+                src="assets/img/3-img.jpg"
+                alt="Image 1"
+                style="width: 314px !important; border: 7px solid white"
+            /></a>
+            <a
+              href="https://www.freshworks.com/freshworks-cio-on-generative-ais-impact-on-service-management-blog/?tactic_id=6012042&utm_source=Forbes"
+            >
+              <h3>
+                Freshworks CIO on generative <br />
+                AI’s impact on service management
+              </h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a
+              href="https://www.freshworks.com/freshservice/benchmark-report-2023/?tactic_id=6012042&utm_source=Forbes"
+              ><img
+                src="assets/img/4-img.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a
+              href="https://www.freshworks.com/freshservice/benchmark-report-2023/?tactic_id=6012042&utm_source=Forbes"
+            >
+              <h3>
+                Freshservice IT Service <br />
+                Management Benchmark Report 2023
+              </h3>
+            </a>
+          </div>
 
-  <!-- =========================
+          <div class="item item1">
+            <a
+              href="https://www.freshworks.com/freshservice/compare/service-now/?tactic_id=6012042&utm_source=Forbes"
+              ><img
+                src="assets/img/7-img.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a
+              href="https://www.freshworks.com/freshservice/compare/service-now/?tactic_id=6012042&utm_source=Forbes"
+            >
+              <h3>Freshservice vs ServiceNow</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a
+              href="https://www.freshworks.com/freshservice/forrester-planning-guide-2023/?tactic_id=6012042&utm_source=Forbes"
+              ><img
+                src="assets/img/6-img.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a
+              href="https://www.freshworks.com/freshservice/forrester-planning-guide-2023/?tactic_id=6012042&utm_source=Forbes"
+            >
+              <h3>Forrester Planning Guide 2023</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a
+              href="https://www.freshworks.com/freshservice/lp/itsm-and-itom-made-fast-and-easy/?tactic_id=6012042&utm_source=Forbes"
+              ><img
+                src="assets/img/5-img.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a
+              href="https://www.freshworks.com/freshservice/lp/itsm-and-itom-made-fast-and-easy/?tactic_id=6012042&utm_source=Forbes"
+            >
+              <h3>eBook: Supercharging ITSM with ITOM</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a
+              href="https://www.freshworks.com/freshservice/resources/case-study/chargebee-leaps-freshservice-devops-management/?tactic_id=6012042&utm_source=Forbes"
+              ><img
+                src="assets/img/Solutions overview 1.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a
+              href="https://www.freshworks.com/freshservice/resources/case-study/chargebee-leaps-freshservice-devops-management/?tactic_id=6012042&utm_source=Forbes"
+            >
+              <h3>Case study - Chargebee</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a
+              href="https://www.freshworks.com/freshservice/resources/case-study/bankbazaar/?tactic_id=6012042&utm_source=Forbes  "
+              ><img
+                src="assets/img/ITSM Overview.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a
+              href="https://www.freshworks.com/freshservice/resources/case-study/bankbazaar/?tactic_id=6012042&utm_source=Forbes  "
+            >
+              <h3>Case study - BankBazaar</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a href="https://www.youtube.com/watch?v=rHxt4D3Xj7Y"
+              ><img
+                src="assets/img/Customer Spotlight.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a href="https://www.youtube.com/watch?v=rHxt4D3Xj7Y">
+              <h3>Customer Spotlight: Alterra Mountain Company</h3>
+            </a>
+          </div>
+          <div class="item item1">
+            <a href="https://www.youtube.com/watch?reload=9&v=P7pYWCSe6PQ"
+              ><img
+                src="assets/img/protection-money-concept-pink-piggy-bank-is-protected-by-businessman-s-hand-around-with-shield-icon-symbol-white-table-dark-grey-background-saving-business-investment-retirement-concept-min.jpg"
+                alt="Image 1"
+                style="
+                  width: 314px !important;
+                  border: 7px solid white;
+                  height: 212px;
+                  object-fit: cover;
+                "
+            /></a>
+            <a href="https://www.youtube.com/watch?reload=9&v=P7pYWCSe6PQ">
+              <h3>Customer Spotlight: Bangor Savings Bank</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--Resources end-->
+    </section>
+
+    <!-- =========================
     main section end
     ========================= -->
 
-  <!-- =========================
+    <!-- =========================
   footer start
     ========================= -->
 
-  <footer>
-    <div class="container">
-      <div class="footer">
-        <div class="footer-logo">
-          <img src="assets/img/logo.png" alt="" />
-        </div>
-        <div class="socail-media">
-          <ul class="icons">
-            <li>
-              <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-            </li>
-            <li>
-              <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-          </ul>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer-logo">
+            <img src="assets/img/logo.png" alt="" />
+          </div>
+          <div class="socail-media">
+            <ul class="icons">
+              <li>
+                <a href="#" class="icon"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- =========================
+    <!-- =========================
     footer  end
     ========================= -->
 
-  <!-- bootstrap script file -->
-  <script src="assets/js/bootstrap.min.js"></script>
-  <!-- jquery script file -->
-  <script src="assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
-  <!-- owl-carousel -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <!-- custom script file -->
-  <script src="assets/js/script.js"></script>
-</body>
-
+    <!-- bootstrap script file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- jquery script file -->
+    <script src="assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <!-- owl-carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom script file -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
